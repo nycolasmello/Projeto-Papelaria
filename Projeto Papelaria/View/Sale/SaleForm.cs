@@ -37,7 +37,7 @@ namespace Projeto_Papelaria.View
             btnEndSale.Enabled = false;
             btnEndSale.Enabled = false;
             btnCancelSale.Enabled = false;
-            dgvProducts.Columns[2].HeaderText = "Tamanho em ML";
+            dgvProducts.Columns[2].HeaderText = "Código";
             dgvProducts.Columns[3].HeaderText = "Valor Unitário";
             txtBarCode.Enabled = false;
 

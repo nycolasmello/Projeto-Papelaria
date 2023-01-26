@@ -143,7 +143,6 @@
             this.cmbUnidade_De_Medida.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbUnidade_De_Medida.FormattingEnabled = true;
             this.cmbUnidade_De_Medida.Items.AddRange(new object[] {
-            "LT",
             "UN"});
             this.cmbUnidade_De_Medida.Location = new System.Drawing.Point(274, 224);
             this.cmbUnidade_De_Medida.Name = "cmbUnidade_De_Medida";

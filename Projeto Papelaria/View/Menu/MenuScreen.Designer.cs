@@ -39,18 +39,18 @@
             this.btnSale = new System.Windows.Forms.Button();
             this.btnDashboard = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.lblUsername = new System.Windows.Forms.Label();
             this.pnlNav = new System.Windows.Forms.Panel();
             this.PnlFormLoader = new System.Windows.Forms.Panel();
             this.picCloseForm = new System.Windows.Forms.PictureBox();
             this.picMinimizeForm = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCloseForm)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picMinimizeForm)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -228,6 +228,16 @@
             this.panel2.Size = new System.Drawing.Size(184, 144);
             this.panel2.TabIndex = 0;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Projeto_Papelaria.Properties.Resources.cerebro;
+            this.pictureBox1.Location = new System.Drawing.Point(48, 34);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(80, 75);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -289,16 +299,6 @@
             this.picMinimizeForm.TabStop = false;
             this.picMinimizeForm.Click += new System.EventHandler(this.picMinimizeForm_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Projeto_Papelaria.Properties.Resources.cerebro;
-            this.pictureBox1.Location = new System.Drawing.Point(48, 34);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(80, 75);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            // 
             // MenuScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -314,13 +314,13 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MenuScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Area Hookah";
+            this.Text = "Papelaria Sinapse";
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCloseForm)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picMinimizeForm)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
