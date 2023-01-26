@@ -45,10 +45,12 @@
             this.PnlFormLoader = new System.Windows.Forms.Panel();
             this.picCloseForm = new System.Windows.Forms.PictureBox();
             this.picMinimizeForm = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picCloseForm)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picMinimizeForm)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -217,6 +219,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.lblUsername);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
@@ -228,11 +231,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.label2.Location = new System.Drawing.Point(20, 30);
+            this.label2.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(14, 3);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(154, 20);
+            this.label2.Size = new System.Drawing.Size(152, 28);
             this.label2.TabIndex = 2;
             this.label2.Text = "Papelaria Sinapse";
             // 
@@ -241,7 +244,7 @@
             this.lblUsername.AutoSize = true;
             this.lblUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblUsername.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.lblUsername.Location = new System.Drawing.Point(59, 78);
+            this.lblUsername.Location = new System.Drawing.Point(59, 112);
             this.lblUsername.Name = "lblUsername";
             this.lblUsername.Size = new System.Drawing.Size(102, 20);
             this.lblUsername.TabIndex = 1;
@@ -286,6 +289,16 @@
             this.picMinimizeForm.TabStop = false;
             this.picMinimizeForm.Click += new System.EventHandler(this.picMinimizeForm_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Projeto_Papelaria.Properties.Resources.cerebro;
+            this.pictureBox1.Location = new System.Drawing.Point(48, 34);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(80, 75);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
             // MenuScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -307,6 +320,7 @@
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picCloseForm)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picMinimizeForm)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -329,5 +343,6 @@
         private Button btnGroupAndBrand;
         private Button btnOpenRegCodeBar;
         private Button btnBackUp;
+        private PictureBox pictureBox1;
     }
 }

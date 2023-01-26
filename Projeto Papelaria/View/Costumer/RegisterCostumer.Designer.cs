@@ -66,7 +66,7 @@
             this.btnCreateClient.Name = "btnCreateClient";
             this.btnCreateClient.Size = new System.Drawing.Size(201, 51);
             this.btnCreateClient.TabIndex = 18;
-            this.btnCreateClient.Text = "    Cadastrar";
+            this.btnCreateClient.Text = " Cadastrar";
             this.btnCreateClient.TextColor = System.Drawing.Color.White;
             this.btnCreateClient.UseVisualStyleBackColor = false;
             this.btnCreateClient.Click += new System.EventHandler(this.btnCreateClient_Click);
@@ -75,7 +75,7 @@
             // 
             this.txtNameClient.BackColor = System.Drawing.SystemColors.Window;
             this.txtNameClient.BorderColor = System.Drawing.Color.White;
-            this.txtNameClient.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(204)))), ((int)(((byte)(55)))));
+            this.txtNameClient.BorderFocusColor = System.Drawing.Color.White;
             this.txtNameClient.BorderRadius = 6;
             this.txtNameClient.BorderSize = 2;
             this.txtNameClient.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -97,7 +97,7 @@
             // 
             this.txtPhoneClient.BackColor = System.Drawing.SystemColors.Window;
             this.txtPhoneClient.BorderColor = System.Drawing.Color.White;
-            this.txtPhoneClient.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(204)))), ((int)(((byte)(55)))));
+            this.txtPhoneClient.BorderFocusColor = System.Drawing.Color.White;
             this.txtPhoneClient.BorderRadius = 6;
             this.txtPhoneClient.BorderSize = 2;
             this.txtPhoneClient.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);

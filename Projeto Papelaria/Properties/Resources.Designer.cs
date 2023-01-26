@@ -213,6 +213,26 @@ namespace Projeto_Papelaria.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cerebro {
+            get {
+                object obj = ResourceManager.GetObject("cerebro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cerebro1 {
+            get {
+                object obj = ResourceManager.GetObject("cerebro1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap clientes_correto {
             get {
                 object obj = ResourceManager.GetObject("clientes_correto", resourceCulture);

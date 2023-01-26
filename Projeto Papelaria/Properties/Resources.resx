@@ -127,6 +127,9 @@
   <data name="carteira-de-identidade" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\carteira-de-identidade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="cerebro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cerebro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="dinheiro" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dinheiro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -187,9 +190,6 @@
   <data name="Editar-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Editar-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bolsa-de-dinheiro (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bolsa-de-dinheiro (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="editar (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\editar (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -202,6 +202,9 @@
   <data name="editar1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\editar1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="clientes_correto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clientes_correto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="venda_correto" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\venda_correto1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -210,9 +213,6 @@
   </data>
   <data name="remover-do-carrinho" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\remover-do-carrinho.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="user_correto" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\user_correto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="report (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\report (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -232,6 +232,9 @@
   <data name="close_correto" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\close_correto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bolsa-de-dinheiro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bolsa-de-dinheiro1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="excluir (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\excluir (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -250,8 +253,8 @@
   <data name="areadetrabalho" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\areadetrabalho.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bolsa-de-dinheiro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bolsa-de-dinheiro1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lixiera_correta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lixiera_correta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="registrar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\registrar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -262,17 +265,20 @@
   <data name="Close" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="lixiera_correta" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lixiera_correta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="user_correto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_correto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="lixeira-de-reciclagem" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lixeira-de-reciclagem.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="database" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\database.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="registro (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\registro (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="clientes_correto" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\clientes_correto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="registro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\registro1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="lupa1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lupa1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -286,8 +292,8 @@
   <data name="cadeado" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cadeado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="registro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\registro1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bolsa-de-dinheiro (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bolsa-de-dinheiro (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="excluir" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\excluir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -304,7 +310,7 @@
   <data name="sales (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sales (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="database" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\database.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cerebro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cerebro1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

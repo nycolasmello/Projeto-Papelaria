@@ -39,8 +39,10 @@
             this.txtPassword = new CustomControls.RJControls.RJTextBox();
             this.lblReturnDB = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -49,7 +51,7 @@
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.Font = new System.Drawing.Font("Gadugi", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(63, 67);
+            this.label1.Location = new System.Drawing.Point(74, 146);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(52, 16);
             this.label1.TabIndex = 0;
@@ -61,7 +63,7 @@
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label2.Font = new System.Drawing.Font("Gadugi", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(63, 133);
+            this.label2.Location = new System.Drawing.Point(74, 212);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(42, 16);
             this.label2.TabIndex = 1;
@@ -70,7 +72,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Projeto_Papelaria.Properties.Resources.user_correto;
-            this.pictureBox1.Location = new System.Drawing.Point(28, 87);
+            this.pictureBox1.Location = new System.Drawing.Point(39, 166);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(30, 31);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -80,7 +82,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Projeto_Papelaria.Properties.Resources.cadeado;
-            this.pictureBox2.Location = new System.Drawing.Point(28, 153);
+            this.pictureBox2.Location = new System.Drawing.Point(39, 232);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(30, 31);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -99,7 +101,7 @@
             this.btEntrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btEntrar.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btEntrar.ForeColor = System.Drawing.Color.White;
-            this.btEntrar.Location = new System.Drawing.Point(106, 242);
+            this.btEntrar.Location = new System.Drawing.Point(117, 321);
             this.btEntrar.Name = "btEntrar";
             this.btEntrar.Size = new System.Drawing.Size(117, 33);
             this.btEntrar.TabIndex = 8;
@@ -120,7 +122,7 @@
             this.btSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btSair.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btSair.ForeColor = System.Drawing.Color.White;
-            this.btSair.Location = new System.Drawing.Point(106, 291);
+            this.btSair.Location = new System.Drawing.Point(117, 370);
             this.btSair.Name = "btSair";
             this.btSair.Size = new System.Drawing.Size(117, 33);
             this.btSair.TabIndex = 9;
@@ -138,7 +140,7 @@
             this.txtUsername.BorderSize = 2;
             this.txtUsername.Font = new System.Drawing.Font("Gadugi", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtUsername.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txtUsername.Location = new System.Drawing.Point(65, 87);
+            this.txtUsername.Location = new System.Drawing.Point(76, 166);
             this.txtUsername.Margin = new System.Windows.Forms.Padding(4);
             this.txtUsername.Multiline = false;
             this.txtUsername.Name = "txtUsername";
@@ -160,7 +162,7 @@
             this.txtPassword.BorderSize = 2;
             this.txtPassword.Font = new System.Drawing.Font("Gadugi", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txtPassword.Location = new System.Drawing.Point(65, 153);
+            this.txtPassword.Location = new System.Drawing.Point(76, 232);
             this.txtPassword.Margin = new System.Windows.Forms.Padding(4);
             this.txtPassword.Multiline = false;
             this.txtPassword.Name = "txtPassword";
@@ -179,7 +181,7 @@
             this.lblReturnDB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblReturnDB.Font = new System.Drawing.Font("Gadugi", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblReturnDB.ForeColor = System.Drawing.Color.Red;
-            this.lblReturnDB.Location = new System.Drawing.Point(86, 200);
+            this.lblReturnDB.Location = new System.Drawing.Point(97, 279);
             this.lblReturnDB.Name = "lblReturnDB";
             this.lblReturnDB.Size = new System.Drawing.Size(0, 16);
             this.lblReturnDB.TabIndex = 13;
@@ -195,12 +197,23 @@
             this.label3.TabIndex = 14;
             this.label3.Text = "Papelaria Sinapse";
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Projeto_Papelaria.Properties.Resources.cerebro1;
+            this.pictureBox3.Location = new System.Drawing.Point(120, 47);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(106, 85);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 15;
+            this.pictureBox3.TabStop = false;
+            // 
             // LoginScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
-            this.ClientSize = new System.Drawing.Size(347, 336);
+            this.ClientSize = new System.Drawing.Size(347, 415);
+            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lblReturnDB);
             this.Controls.Add(this.txtPassword);
@@ -218,6 +231,7 @@
             this.Text = "Login";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -235,5 +249,6 @@
         private CustomControls.RJControls.RJTextBox txtPassword;
         private Label lblReturnDB;
         private Label label3;
+        private PictureBox pictureBox3;
     }
 }
